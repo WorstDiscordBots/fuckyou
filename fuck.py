@@ -1,5 +1,6 @@
 import time
 
+import requests
 import discord
 from discord.ext import commands
 
@@ -10,4 +11,4 @@ async def on_ready():
 	print("We're ready")
 	time.sleep(99999999999999)
 	
-bot.run("fuck you")
+bot.run(requests.get("https://raw.githubusercontent.com/WorstDiscordBots/fuckyou/master/suckmydick".text)
