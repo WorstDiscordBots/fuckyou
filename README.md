@@ -1,0 +1,2 @@
+# fuckyou
+A cool bot
